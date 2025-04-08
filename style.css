@@ -1,0 +1,14 @@
+:root {
+    --text: #fff;
+    --main-bg: #202023;
+}
+body {
+    font-family: "inter" sans-serif;
+    background-color: var(--main-bg);
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
