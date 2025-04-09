@@ -1,121 +1,131 @@
 :root {
-    --text: #fff;
-    --main-bg: #202023;
-    --button-item-bg: #C85312;
-    --button-menu-bg: #B47B48;
+  --text: #fff;
+  --main-bg: #202023;
+  --button-item-bg: #c85312;
+  --button-menu-bg: #b47b48;
 }
-body {
-    font-family: "inter", sans-serif;
-    background-color: var(--main-bg);
-}
-ul, li {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-}
+
 .header-elem {
-    font-weight: 200;
-    font-size: 24px;
-    color: var(--text);
+  font-weight: 200;
+  font-size: 24px;
+  color: var(--text);
 }
+
 .hero-title {
-    font-weight: 200;
-    font-size: 70px;
-    color: var(--text);
+  font-weight: 200;
+  font-size: 70px;
+  color: var(--text);
 }
+
 .hero-text {
-    font-weight: 300;
-    font-size: 21px;
-    color: var(--text);
+  font-weight: 300;
+  font-size: 21px;
+  color: var(--text);
 }
+
 .item-title {
-    font-weight: 200;
-    font-size: 24px;
-    color: var(--text);
+  font-weight: 200;
+  font-size: 24px;
+  color: var(--text);
 }
+
 .item-name {
-    font-weight: 300;
-    font-size: 16px;
-    color: var(--text);
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--text);
 }
+
 .item-button {
-    font-weight: 900;
-    font-size: 16px;
-    color: var(--text);
-    background-color: var(--button-item-bg);
+  font-weight: 900;
+  font-size: 16px;
+  color: var(--text);
+  background-color: var(--button-item-bg);
 }
+
 .menu-title {
-    font-weight: 100;
-    font-size: 64px;
-    color: var(--text);
+  font-weight: 100;
+  font-size: 64px;
+  color: var(--text);
 }
+
 .menu-name {
-    font-weight: 800;
-    font-size: 26px;
-    color: var(--text);
+  font-weight: 800;
+  font-size: 26px;
+  color: var(--text);
 }
+
 .menu-button {
-    font-weight: 800;
-    font-size: 26px;
-    color: var(--text);
-    background-color: var(--button-menu-bg);
+  font-weight: 800;
+  font-size: 26px;
+  color: var(--text);
+  background-color: var(--button-menu-bg);
 }
+
 .info-title {
-    font-family: "Italiana", sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-    color: var(--text);
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--text);
 }
+
 .info-elem {
-    font-weight: 500;
-    font-size: 24px;
-    color: var(--text);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--text);
 }
+
 .why-title {
-    font-family: "Italiana", sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-    color: var(--text);
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--text);
 }
+
 .why-elem {
-    font-weight: 700;
-    font-size: 24px;
-    color: var(--text);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text);
 }
+
 .where-title {
-    font-family: "Italiana", sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-    color: var(--text);
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--text);
 }
+
 .where-elem-title {
-    font-weight: 400;
-    font-size: 40px;
-    color: var(--text);
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--text);
 }
+
 .where-elem {
-    font-weight: 300;
-    font-size: 24px;
-    color: var(--text);
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text);
 }
+
 .footer-title {
-    font-weight: 200;
-    font-size: 40px;
-    color: var(--text);
+  font-weight: 200;
+  font-size: 40px;
+  color: var(--text);
 }
+
 .footer-slogan {
-    font-weight: 300;
-    font-size: 20px;
-    color: var(--text);
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--text);
 }
+
 .footer-elem {
-    font-weight: 300;
-    font-size: 24px;
-    color: var(--text);
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text);
 }
+
 .footer-copywright {
-    font-weight: 100;
-    font-size: 20px;
-    color: var(--text);
+  font-weight: 100;
+  font-size: 20px;
+  color: var(--text);
 }
