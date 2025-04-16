@@ -22,10 +22,11 @@
   </head>
 
   <body>
-    <main>
-      <header>
+    <div class="main-bg">
+      <header class="header">
+        <div class="container">
         <nav>
-          <ul>
+          <ul class="header-list">
             <li><a href="#" class="header-elem">About us</a></li>
             <li><a href="#" class="header-elem">Delivey</a></li>
             <li><a href="#" class="header-elem">Menu</a></li>
@@ -33,42 +34,59 @@
             <li><a href="#" class="header-elem">Rewievs</a></li>
           </ul>
         </nav>
+        </div>
+      </header>
+        <div class="container hero-container">
         <h1 class="hero-title">
           TRADITIONAL<br />
           ARTISAX BAKERY
         </h1>
         <p class="hero-text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
+          Lorem Ipsum is simply dummy text of the printing and<br>
+           typesetting
+          industry.<br> Lorem Ipsum has been the industry's standard dummy<br>
+           text ever
+          since the 1500s, when an unknown printer took<br>
+           a galley of type and
+          scrambled it to make a type<br>
+           specimen book. It has survived not only
+          five centuries,<br>
+           but also the leap into electronic typesetting,
+          remaining<br>
+           essentially unchanged.
         </p>
-        <button>SHOP NOW</button>
-      </header>
-      <section>
-        <ul>
-          <li>
-            <img src="./img/cookies.png" alt="a cookie" />
+        <button class="hero-button">SHOP NOW</button>
+        <ul class="item-list">
+          <li class="item-box">
+            <img src="./img/cookies.png" alt="a cookie" class="cookies-hero"/>
+            <div class="item-text">
             <p class="item-title">$8.00(kg)</p>
             <h3 class="item-name">American Cookie</h3>
             <button class="item-button">BUY</button>
+            </div>
           </li>
-          <li>
-            <img src="./img/crossiant.png" alt="a crossiant" />
-            <p class="item-title">$4.00(kg)</p>
-            <h3 class="item-name">Crushed with chockolate</h3>
+          <li class="item-box">
+            <img src="./img/crossiant.png" alt="a crossiant" class="crossiant-hero"/>
+            <div class="item-text">
+            <p class="item-title">$4.00</p>
+            <h3 class="item-name">Crushed with<br> chocolate</h3>
             <button class="item-button">BUY</button>
+            </div>
           </li>
-          <li>
-            <img src="./img/berry-pie.png" alt="a crossiant" />
-            <p class="item-title">For piece $4.00</p>
+          <li class="pie-box">
+          <img src="./img/berry-pie.png" alt="a pie" class="pie-hero">
+          <div class="item-text">
+            <p class="item-title">For piece<br> $4.00</p>
             <h3 class="item-name">Blackberry pie</h3>
             <button class="item-button">BUY</button>
+          </div>
+
           </li>
         </ul>
+        </div>
+      </div>
       </section>
+
       <section>
         <h2 class="menu-title">Menu</h2>
         <ul>
@@ -79,12 +97,12 @@
           </li>
           <li>
             <img src="./img/bekary.png" alt="bake" />
-            <h3 class="menu-name">Bekary</h3>
+            <h3 class="menu-name">Bakery</h3>
             <button class="menu-button">Order</button>
           </li>
           <li>
-            <img src="./img/pie.png" alt="pie" />
-            <h3 class="menu-name">Cakes & Capcakes</h3>
+            <img src="./img/pie-cupcake.png" alt="pie and cupcake" />
+            <h3 class="menu-name">Cakes & Cupcakes</h3>
             <button class="menu-button">Order</button>
           </li>
           <li>
@@ -95,13 +113,13 @@
         </ul>
       </section>
       <section>
-        <h2 class="info-title">Quality our bekary</h2>
+        <h2 class="italiana-title">Quality our bakery</h2>
         <ul>
           <li>
             <img src="./img/bread.png" alt="bread" />
             <ol>
               <li class="info-elem">Flour with fresh wheat</li>
-              <li class="info-elem">New drozzhi</li>
+              <li class="info-elem">New yeast</li>
               <li class="info-elem">Fresh eggs</li>
               <li class="info-elem">Water from the well</li>
             </ol>
@@ -110,7 +128,7 @@
             <img src="./img/cookies-info.png" alt="cookies" />
             <ol>
               <li class="info-elem">Flour with fresh wheat</li>
-              <li class="info-elem">New drozzhi</li>
+              <li class="info-elem">New yeast</li>
               <li class="info-elem">Fresh eggs</li>
               <li class="info-elem">Water from the well</li>
             </ol>
@@ -119,7 +137,7 @@
           <li>
             <ol>
               <li class="info-elem">Flour with fresh wheat</li>
-              <li class="info-elem">New drozzhi</li>
+              <li class="info-elem">New yeast</li>
               <li class="info-elem">Fresh eggs</li>
               <li class="info-elem">Water from the well</li>
             </ol>
@@ -127,7 +145,7 @@
         </ul>
       </section>
       <section>
-        <h2 class="why-title">Why TRADITIONALARTISAX BAKERY ?</h2>
+        <h2 class="italiana-title">Why TRADITIONALARTISAX BAKERY ?</h2>
         <ul>
           <li>
             <img src="./img/bell.png" alt="order" />
@@ -145,7 +163,7 @@
       </section>
       <section>
         <ul>
-          <li><h3 class="where-title">Where</h3>
+          <li><h3 class="italiana-title">Where</h3>
             <img src="./img/location.jpg" alt="map" /></li>
             <li><ul>
               <li><h3 class="where-elem-title">How</h3></li>
@@ -162,7 +180,6 @@
             </li>
         </ul>
       </section>
-    </main>
     <footer>
       <h2 class="footer-title">TRADITIONAL ARTISAX BAKERY</h2>
       <p class="footer-slogan">We want be helthy</p>

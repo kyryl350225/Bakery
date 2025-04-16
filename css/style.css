@@ -1,14 +1,46 @@
 :root {
   --text: #fff;
   --main-bg: #202023;
-  --button-item-bg: #c85312;
-  --button-menu-bg: #b47b48;
+  --button-menu-bg: #c85312;
+  --button-main: #b47b48;
+  --pie-bg: #ebad51;
+}
+
+.container {
+  padding-left: 125px;
+}
+
+.italiana-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--text);
+}
+
+.main-bg {
+  background-image: url(main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 71px;
+}
+
+.header-container {
+  display: flex;
 }
 
 .header-elem {
   font-weight: 200;
   font-size: 24px;
   color: var(--text);
+  margin-right: 26px;
 }
 
 .hero-title {
@@ -17,29 +49,86 @@
   color: var(--text);
 }
 
+.hero-container {
+  padding-bottom: 56px;
+}
 .hero-text {
   font-weight: 300;
   font-size: 21px;
   color: var(--text);
 }
 
+.hero-button {
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text);
+  background-color: var(--button-main);
+  padding: 16px 34px 9px 34px;
+  border-radius: 17px;
+  margin-top: 33px;
+  margin-bottom: 125px;
+}
+
+.item-list {
+  display: flex;
+}
+
+.item-box {
+  background-color: var(--main-bg);
+  display: flex;
+  padding-right: 12px;
+  margin-right: 104px;
+}
+
+.pie-box {
+  background-color: var(--pie-bg);
+  display: flex;
+  padding-right: 12px;
+  margin-right: 104px;
+}
+
+.cookies-hero {
+  height: 225px;
+  width: 162px;
+}
+
+.crossiant-hero {
+  height: 225px;
+  width: 213px;
+}
+
+.pie-hero {
+  size: 193px;
+}
+
+.item-text {
+  justify-content: center;
+  text-align: center;
+}
+
 .item-title {
   font-weight: 200;
   font-size: 24px;
   color: var(--text);
+  text-align: center;
+  margin-left: 6px;
+  width: 105px;
 }
 
 .item-name {
   font-weight: 300;
   font-size: 16px;
   color: var(--text);
+  text-align: center;
 }
 
 .item-button {
   font-weight: 900;
   font-size: 16px;
   color: var(--text);
-  background-color: var(--button-item-bg);
+  background-color: var(--button-menu-bg);
+  padding: 10px 22px;
+  margin-top: 35px;
 }
 
 .menu-title {
@@ -58,39 +147,19 @@
   font-weight: 800;
   font-size: 26px;
   color: var(--text);
-  background-color: var(--button-menu-bg);
-}
-
-.info-title {
-  font-family: "Italiana", sans-serif;
-  font-weight: 400;
-  font-size: 64px;
-  color: var(--text);
+  background-color: var(--button-main);
 }
 
 .info-elem {
   font-weight: 500;
   font-size: 24px;
   color: var(--text);
-}
-
-.why-title {
-  font-family: "Italiana", sans-serif;
-  font-weight: 400;
-  font-size: 64px;
-  color: var(--text);
+  list-style: decimal;
 }
 
 .why-elem {
   font-weight: 700;
   font-size: 24px;
-  color: var(--text);
-}
-
-.where-title {
-  font-family: "Italiana", sans-serif;
-  font-weight: 400;
-  font-size: 64px;
   color: var(--text);
 }
 

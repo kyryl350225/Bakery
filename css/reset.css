@@ -1,18 +1,29 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "inter", sans-serif;
-    background-color: var(--main-bg);
-  }
-  
-  ul,
-  li {
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  background-color: var(--main-bg);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
