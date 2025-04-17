@@ -131,10 +131,20 @@
   margin-top: 35px;
 }
 
+.menu-container {
+  padding-left: 275px;
+}
 .menu-title {
   font-weight: 100;
   font-size: 64px;
   color: var(--text);
+  margin-left: 363px;
+  margin-left: 422px;
+}
+
+.menu-bread {
+  width: 294;
+  height: 184px;
 }
 
 .menu-name {
@@ -148,6 +158,35 @@
   font-size: 26px;
   color: var(--text);
   background-color: var(--button-main);
+  padding: 3px 43px 7px 43px;
+  border-radius: 17px;
+}
+
+.menu-align {
+  display: flex;
+  gap: 197px;
+}
+
+.menu-box {
+  border-radius: 5px var(--text) solid;
+  width: 380px;
+}
+
+.quality-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--text);
+  margin-left: 422px;
+}
+
+
+.info-container {
+  display: flex;
+}
+
+.info-bg {
+  background-image: url(./quality-bg.png);
 }
 
 .info-elem {
