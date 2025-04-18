@@ -4,6 +4,7 @@
   --button-menu-bg: #c85312;
   --button-main: #b47b48;
   --pie-bg: #ebad51;
+  --quality-card: #58595b;
 }
 
 .container {
@@ -71,20 +72,17 @@
 
 .item-list {
   display: flex;
+  gap: 104px;
 }
 
 .item-box {
   background-color: var(--main-bg);
   display: flex;
-  padding-right: 12px;
-  margin-right: 104px;
+  flex-basis: 310px;
 }
 
-.pie-box {
+.item-box:last-child {
   background-color: var(--pie-bg);
-  display: flex;
-  padding-right: 12px;
-  margin-right: 104px;
 }
 
 .cookies-hero {
@@ -98,7 +96,8 @@
 }
 
 .pie-hero {
-  size: 193px;
+  height: 193px;
+  width: 193px;
 }
 
 .item-text {
@@ -139,18 +138,26 @@
   font-size: 64px;
   color: var(--text);
   margin-left: 363px;
-  margin-left: 422px;
 }
 
 .menu-bread {
-  width: 294;
+  width: 294px;
   height: 184px;
+  margin-left: 19px;
+  margin-top: 13px;
+}
+
+.menu-bake {
+  width: 357px;
+  height: 240px;
+  margin-bottom: 30px;
 }
 
 .menu-name {
   font-weight: 800;
   font-size: 26px;
   color: var(--text);
+  text-align: center;
 }
 
 .menu-button {
@@ -160,16 +167,22 @@
   background-color: var(--button-main);
   padding: 3px 43px 7px 43px;
   border-radius: 17px;
+  margin-top: 9px;
+  margin-bottom: 7px;
+  margin-left: 80px;
 }
 
 .menu-align {
   display: flex;
-  gap: 197px;
+  gap: 198px;
 }
 
-.menu-box {
-  border-radius: 5px var(--text) solid;
-  width: 380px;
+.menu-border {
+  border: 1px var(--text) solid;
+  width: 328px;
+  height: 229px;
+  justify-content: center;
+  align-items: center;
 }
 
 .quality-title {
@@ -180,13 +193,26 @@
   margin-left: 422px;
 }
 
-
 .info-container {
+  height: 853px;
+}
+
+.info-box {
+  display: block;
+}
+
+.info-lists {
+  background-color: var(--quality-card);
+}
+
+.info-list {
   display: flex;
 }
 
 .info-bg {
   background-image: url(./quality-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info-elem {
