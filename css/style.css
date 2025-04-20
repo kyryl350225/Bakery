@@ -8,18 +8,12 @@
 }
 
 .container {
-  padding-left: 125px;
-}
-
-.italiana-title {
-  font-family: "Italiana", sans-serif;
-  font-weight: 400;
-  font-size: 64px;
-  color: var(--text);
+  margin: auto;
+  width: 1200px;
 }
 
 .main-bg {
-  background-image: url(main-bg.jpg);
+  background-image: url(../img/main-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,7 +45,9 @@
 }
 
 .hero-container {
-  padding-bottom: 56px;
+  width: 1200px;
+  padding: 0 auto;
+  padding-bottom: 36px;
 }
 .hero-text {
   font-weight: 300;
@@ -68,6 +64,10 @@
   border-radius: 17px;
   margin-top: 33px;
   margin-bottom: 125px;
+}
+
+.hero-button:last-child {
+  margin-top: 29px;
 }
 
 .item-list {
@@ -98,6 +98,8 @@
 .pie-hero {
   height: 193px;
   width: 193px;
+  margin-top: 28px;
+  margin-left: 6px;
 }
 
 .item-text {
@@ -131,7 +133,7 @@
 }
 
 .menu-container {
-  padding-left: 275px;
+  padding-left: 120px;
 }
 .menu-title {
   font-weight: 100;
@@ -201,8 +203,28 @@
   display: block;
 }
 
+.info-bread {
+  margin-bottom: 20px;
+}
+
+.info-cookies {
+  margin-top: 107px;
+}
+
+.info-pie {
+  margin-top: 160px;
+}
 .info-lists {
   background-color: var(--quality-card);
+  padding-top: 31px;
+  padding-bottom: 62px;
+  margin-right: 35px;
+}
+
+.info-lists:last-child {
+  padding-top: 14px;
+  padding-bottom: 25px;
+  margin-left: 55px;
 }
 
 .info-list {
@@ -210,7 +232,7 @@
 }
 
 .info-bg {
-  background-image: url(./quality-bg.png);
+  background-image: url(../img/quality-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -222,10 +244,30 @@
   list-style: decimal;
 }
 
+.why-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--text);
+  margin-top: 55px;
+}
+
+.why-bg {
+  background-image: url(../img/why-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.why-list {
+  display: flex;
+  margin-top: 121px;
+}
+
 .why-elem {
   font-weight: 700;
   font-size: 24px;
   color: var(--text);
+  margin-bottom: 58px;
 }
 
 .where-elem-title {
@@ -234,16 +276,42 @@
   color: var(--text);
 }
 
+.where-title {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--text);
+  margin-top: 66px;
+  margin-bottom: 56px;
+}
+
+.where-box {
+  display: flex;
+}
+
+.where-gap {
+  gap: 47px;
+}
+
 .where-elem {
   font-weight: 300;
   font-size: 24px;
   color: var(--text);
 }
 
+.footer-list {
+  margin-right: 142px;
+}
+
+.footer-align {
+  display: flex;
+}
+
 .footer-title {
   font-weight: 200;
   font-size: 40px;
   color: var(--text);
+  margin-right: 77px;
 }
 
 .footer-slogan {
@@ -262,4 +330,5 @@
   font-weight: 100;
   font-size: 20px;
   color: var(--text);
+  text-align: center;
 }
