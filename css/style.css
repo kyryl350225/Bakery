@@ -153,6 +153,7 @@
   width: 357px;
   height: 240px;
   margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .menu-name {
@@ -177,6 +178,7 @@
 .menu-align {
   display: flex;
   gap: 198px;
+  flex-wrap: wrap;
 }
 
 .menu-border {
@@ -193,10 +195,6 @@
   font-size: 64px;
   color: var(--text);
   margin-left: 422px;
-}
-
-.info-container {
-  height: 853px;
 }
 
 .info-box {
@@ -219,6 +217,7 @@
   padding-top: 31px;
   padding-bottom: 62px;
   margin-right: 35px;
+  justify-content: center;
 }
 
 .info-lists:last-child {
@@ -276,6 +275,10 @@
   color: var(--text);
 }
 
+.where-horizontal {
+  display: flex;
+}
+
 .where-title {
   font-family: "Italiana", sans-serif;
   font-weight: 400;
@@ -289,14 +292,35 @@
   display: flex;
 }
 
+.where-map {
+  margin-right: 132px;
+  margin-bottom: 90px;
+}
+
 .where-gap {
   gap: 47px;
+  margin-top: 180px;
+}
+
+.where-time {
+  text-align: center;
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text);
 }
 
 .where-elem {
   font-weight: 300;
   font-size: 24px;
   color: var(--text);
+}
+
+.where-tel {
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text);
+  margin-bottom: 49px;
+  margin-top: 49px;
 }
 
 .footer-list {
@@ -318,6 +342,13 @@
   font-weight: 300;
   font-size: 20px;
   color: var(--text);
+}
+
+.footer-name {
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text);
+  margin-bottom: 41px;
 }
 
 .footer-elem {
