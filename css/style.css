@@ -249,6 +249,7 @@
   font-size: 64px;
   color: var(--text);
   margin-top: 55px;
+  display: block;
 }
 
 .why-bg {
@@ -321,6 +322,7 @@
   color: var(--text);
   margin-bottom: 49px;
   margin-top: 49px;
+  display: block;
 }
 
 .footer-list {
@@ -345,6 +347,7 @@
 }
 
 .footer-name {
+  display: block;
   font-weight: 300;
   font-size: 24px;
   color: var(--text);
@@ -352,6 +355,7 @@
 }
 
 .footer-elem {
+  display: block;
   font-weight: 300;
   font-size: 24px;
   color: var(--text);
