@@ -49,6 +49,7 @@
   padding: 0 auto;
   padding-bottom: 36px;
 }
+
 .hero-text {
   font-weight: 300;
   font-size: 21px;
@@ -60,7 +61,7 @@
   font-size: 24px;
   color: var(--text);
   background-color: var(--button-main);
-  padding: 16px 34px 9px 34px;
+  padding: 16px 34px;
   border-radius: 17px;
   margin-top: 33px;
   margin-bottom: 125px;
@@ -81,7 +82,7 @@
   flex-basis: 310px;
 }
 
-.item-box:last-child {
+.item-box:hover {
   background-color: var(--pie-bg);
 }
 
@@ -132,14 +133,12 @@
   margin-top: 35px;
 }
 
-.menu-container {
-  padding-left: 120px;
-}
 .menu-title {
   font-weight: 100;
   font-size: 64px;
   color: var(--text);
-  margin-left: 363px;
+  text-align: center;
+  
 }
 
 .menu-bread {
@@ -150,12 +149,14 @@
 }
 
 .menu-bake {
-  width: 357px;
-  height: 240px;
-  margin-bottom: 30px;
-  margin-bottom: 40px;
+  width: 294px;
+  height: 184px;
 }
 
+.menu-pie {
+  width: 184px;
+  height: 184px;
+}
 .menu-name {
   font-weight: 800;
   font-size: 26px;
@@ -177,8 +178,9 @@
 
 .menu-align {
   display: flex;
-  gap: 198px;
+  gap: 0 198px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu-border {
@@ -187,6 +189,7 @@
   height: 229px;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .quality-title {
@@ -194,7 +197,7 @@
   font-weight: 400;
   font-size: 64px;
   color: var(--text);
-  margin-left: 422px;
+  text-align: center;
 }
 
 .info-box {
@@ -234,6 +237,7 @@
   background-image: url(../img/quality-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 49px;
 }
 
 .info-elem {
@@ -248,7 +252,6 @@
   font-weight: 400;
   font-size: 64px;
   color: var(--text);
-  margin-top: 55px;
   display: block;
 }
 
@@ -256,11 +259,15 @@
   background-image: url(../img/why-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 55px;
 }
 
 .why-list {
   display: flex;
   margin-top: 121px;
+  text-align: center;
+  gap: 174;
+
 }
 
 .why-elem {
@@ -276,10 +283,6 @@
   color: var(--text);
 }
 
-.where-horizontal {
-  display: flex;
-}
-
 .where-title {
   font-family: "Italiana", sans-serif;
   font-weight: 400;
@@ -291,6 +294,7 @@
 
 .where-box {
   display: flex;
+  justify-content: space-between;
 }
 
 .where-map {
@@ -366,4 +370,5 @@
   font-size: 20px;
   color: var(--text);
   text-align: center;
+  margin-top: 86px;
 }
