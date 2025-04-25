@@ -148,14 +148,17 @@
   margin-top: 13px;
 }
 
-.menu-bake {
+.menu-top {
   width: 294px;
   height: 184px;
+  display: block;
 }
 
-.menu-pie {
+.menu-bottom {
   width: 184px;
   height: 184px;
+  display: block;
+  margin-left: 60px;
 }
 .menu-name {
   font-weight: 800;
@@ -233,11 +236,12 @@
   display: flex;
 }
 
-.info-bg {
+.info {
   background-image: url(../img/quality-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 49px;
+  margin-top: 162px;
 }
 
 .info-elem {
@@ -255,10 +259,10 @@
   display: block;
 }
 
-.why-bg {
+.why {
   background-image: url(../img/why-bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding-top: 55px;
 }
 
@@ -266,8 +270,7 @@
   display: flex;
   margin-top: 121px;
   text-align: center;
-  gap: 174;
-
+  justify-content: space-around;
 }
 
 .why-elem {
