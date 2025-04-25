@@ -262,7 +262,7 @@
 .why {
   background-image: url(../img/why-bg.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding-top: 55px;
 }
 
